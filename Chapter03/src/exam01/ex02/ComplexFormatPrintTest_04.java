@@ -1,0 +1,15 @@
+package exam01.ex02;
+
+public class ComplexFormatPrintTest_04 {
+
+	public static void main(String[] args) {
+		System.out.printf("%s","È«±æµ¿");
+		System.out.printf("%10s\n\n","È«±æµ¿");
+		
+		String name="È«±æµ¿";
+		int age=20;
+		System.out.printf("%10s´ÔÀÇ ³ªÀÌ´Â %05d¼¼ ÀÔ´Ï´Ù.",name, age);
+
+	}
+
+}
