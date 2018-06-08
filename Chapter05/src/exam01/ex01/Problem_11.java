@@ -17,7 +17,7 @@ public class Problem_11 {
 		System.out.println("두번째 수를 입력하세요");
 		b=s.nextInt();
 		
-		if(ch=='+')
+		//if(ch=='+')
 			System.out.printf("%d+%d=%d입니다. \n",a,b,a+b);
 		
 		
