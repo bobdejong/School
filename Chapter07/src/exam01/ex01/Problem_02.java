@@ -31,7 +31,7 @@ public class Problem_02 {
 		System.out.printf("대문자 %d개, 소문자 %d개, 숫자 %d개\n",upper_cnt,lower_cnt,digit_cnt);
 		System.out.println(i);
 		System.out.println(str.length());
-		System.out.println(str.charAt(5));
+		System.out.println(str.charAt(1));
 		
 	}
 
