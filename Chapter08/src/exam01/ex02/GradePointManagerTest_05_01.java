@@ -18,12 +18,12 @@ public class GradePointManagerTest_05_01 {
 		do {
 			System.out.print("영어점수=");
 			subject[1]=in.nextInt();
-		}while(subject[1]<0 || subject[0]>100);
+		}while(subject[1]<0 || subject[1]>100);
 		
 		do {
 			System.out.print("수학점수=");
 			subject[2]=in.nextInt();
-		}while(subject[2]<0 || subject[0]>100);
+		}while(subject[2]<0 || subject[2]>100);
 		
 		subject[3]=subject[0]+subject[1]+subject[2];
 		avg=subject[3]/3.0;
