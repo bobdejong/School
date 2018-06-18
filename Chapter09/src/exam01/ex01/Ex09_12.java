@@ -2,11 +2,11 @@ package exam01.ex01;
 
 import java.util.Scanner;
 
-public class Ex09_11 {
+public class Ex09_12 {
 	//매개변수는 외부로부터 값을 전달 받는다.
 	//메소드는 호출하지 않으면 동작 안한다.
 	static int coffee_machine(int button) { //   반환자료형method명(매개변수){    }
-		System.out.printf("\n#1.(자동으로)뜨거운 물을 준비한다.\n");
+		System.out.printf("#1.(자동으로)뜨거운 물을 준비한다.\n");
 		System.out.printf("#2.(자동으로)종이컵을 준비한다.\n");
 		
 		switch(button) {
@@ -37,11 +37,20 @@ public class Ex09_11 {
 		int coffee;
 		int ret;
 		
-		System.out.println("어던 커피 드릴까요?(1:보통,2:설탕,3:블랙)");
+		System.out.println("A님,어떤 커피 드릴까요?(1:보통,2:설탕,3:블랙)");
 		coffee=s.nextInt();
 		ret=coffee_machine(coffee);
-		ret=coffee_machine(3);
-		System.out.println("손님~커피 여기 있습니다.");
+		System.out.println("A님 손님~커피 여기 있습니다.\n");
+		
+		System.out.println("B님,어떤 커피 드릴까요?(1:보통,2:설탕,3:블랙)");
+		coffee=s.nextInt();
+		ret=coffee_machine(coffee);
+		System.out.println("B님 손님~커피 여기 있습니다.\n");
+		
+		System.out.println("C님,어떤 커피 드릴까요?(1:보통,2:설탕,3:블랙)");
+		coffee=s.nextInt();
+		ret=coffee_machine(coffee);
+		System.out.println("C님 손님~커피 여기 있습니다.\n");
 		
 		
 		
