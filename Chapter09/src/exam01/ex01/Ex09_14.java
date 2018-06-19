@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Ex09_14 {
 
 	static int calc(int v1,int v2,int op) {
-			int result=0;
+			int result=0;  //case 에서 1~4번이 안눌리면 반환할 값이 없어서 미리 0값을 주거나
+							//default에서 0의 값을 주어야함
 			
 			switch(op) {
 			case 1:

@@ -14,7 +14,7 @@ public class Problem_25 {
 		
 		System.out.println("로또 추첨을 시작합니다.");
 		
-		for(i=0;i<6;i++) {
+		for(i=0;i<6;i++) {         //for(i=0;i<6;)
 			num=getNumber();
 			
 			for(k=0;k<6;k++)
@@ -24,7 +24,7 @@ public class Problem_25 {
 				 
 				
 			if(dupl=='N')
-					lotto[i]=num;
+					lotto[i]=num;  //i++ 줄때만 i가 증가하게
 			
 			else {
 				dupl='N';
