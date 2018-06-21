@@ -1,4 +1,4 @@
-package test10.ex01;
+	package test10.ex01;
 
 public class FruitSeller {   //과일장수	
 	final int APPLE_PRICE=1000;  //final붙이면 수정불가 원래 필드는 수정가능 (기호상수)

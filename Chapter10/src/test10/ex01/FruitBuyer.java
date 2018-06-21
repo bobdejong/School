@@ -5,7 +5,7 @@ public class FruitBuyer { //me
 	int numOfApple=0;  //소유 과일
 	
 	
-	public void buyApple(FruitSeller seller,int money) {
+	public void buyApple(FruitSeller seller, int money) {
 		numOfApple+=seller.saleApple(money);
 		myMoney-=money;  //
 		
