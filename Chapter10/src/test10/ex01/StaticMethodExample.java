@@ -28,7 +28,7 @@ public class StaticMethodExample {
 		
 		System.out.println("obj1.total="+obj1.total);
 		System.out.println("obj2.total="+obj2.total);
-		System.out.println("ÃÑ°è");
+		System.out.println("ÃÑ°è"+grandTotal);
 		
 		
 	}

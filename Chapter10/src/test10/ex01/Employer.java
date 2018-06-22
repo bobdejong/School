@@ -1,4 +1,4 @@
-/*package test10.ex01;
+package test10.ex01;
 
 public class Employer {
 	private int myMoney;
@@ -20,6 +20,16 @@ public class Employer {
 		System.out.println(myMoney);
 	}
 	
+	public static void main(String[] args) {
+		Employer emr=new Employer(10000000);
+		Employee eme=new Employee(0);
+		
+		emr.payForWork(eme, 3000000);
+		
+		emr.showMyMoney(); //7000000
+		eme.showMyMoney(); //3000000
+		
+	}
+	
 	
 }
-*/
