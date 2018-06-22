@@ -2,7 +2,7 @@ package sec14.exam01_getter_setter;
 
 public class Car {
 	private int speed;
-	private boolean stop;
+	private boolean stop;  //디폴트값 false
 	
 	
 	public int getSpeed() {
@@ -16,7 +16,7 @@ public class Car {
 		this.speed = speed;
 	}
 	}
-	public boolean isStop() {
+	public boolean isStop() {  //true,false
 		return stop;
 	}
 	public void setStop(boolean stop) {
