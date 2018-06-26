@@ -1,7 +1,7 @@
 package test11.ex01;
 
 class Car5{
-	protected String color;  //protected 상속에서만 허용
+	protected String color;  //protected - 상속에서만 허용
 	int speed;
 }
 
@@ -30,7 +30,9 @@ public class Ex12_05 {
 		
 		Car5 mycar5=new Car5();
 		mycar5.color="red";
-		System.out.println("승용차 색상:"+sedan5.color);
+		System.out.println("승용차 색상:"+mycar5.color);
+		
+		
 
 	}
 
