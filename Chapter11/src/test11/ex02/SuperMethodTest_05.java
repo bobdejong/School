@@ -20,6 +20,12 @@ class Super_01{
 		this.y=y;
 	}
 	
+	public int x() {
+		return x;
+	}
+	public int y() {
+		return y;
+	}
 	
 }
 
@@ -28,25 +34,25 @@ class Sub_01 extends Super_01{
 	public Sub_01() {
 		super();
 		this.r=30;
-		System.out.println();
+		System.out.println(super.x()+","+super.y()+","+r);
 	}
 	
 	public Sub_01(int x) {
 		super(x);
 		this.r=30;
-		
+		System.out.println(super.x()+","+super.y()+","+r);
 	}
 	
 	public Sub_01(int x, int y) {
 		super(x,y);
 		this.r=30;
-		
+		System.out.println(super.x()+","+super.y()+","+r);
 	}
 	
 	public Sub_01(int x,int y,int r) {
 		this(x,y);
 		this.r=r;
-		
+		System.out.println(super.x()+","+super.y()+","+r);
 	}
 	
 }
@@ -55,6 +61,7 @@ class Sub_01 extends Super_01{
 
 public class SuperMethodTest_05 {
 
+	
 	public static void main(String[] args) {
 		Sub_01 sb=new Sub_01();
 		Sub_01 sb1=new Sub_01(50);
