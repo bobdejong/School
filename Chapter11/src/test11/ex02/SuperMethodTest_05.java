@@ -27,6 +27,10 @@ class Super_01{
 		return y;
 	}
 	
+	public String toString() {
+		return x+" "+y;
+	}
+	
 }
 
 class Sub_01 extends Super_01{
@@ -55,6 +59,10 @@ class Sub_01 extends Super_01{
 		System.out.println(super.x()+","+super.y()+","+r);
 	}
 	
+	public String toString() {
+		return super.toString()+" "+r;
+	}
+	
 }
 
 
@@ -69,7 +77,10 @@ public class SuperMethodTest_05 {
 		Sub_01 sb3=new Sub_01(50,80,120);
 		
 		
-		
+		System.out.println(sb);
+		System.out.println(sb1);
+		System.out.println(sb2);
+		System.out.println(sb3);
 		
 		
 		
