@@ -1,4 +1,4 @@
-package test11.ex02;
+/*package test11.ex02;
 
 class Product{
 	int price;
@@ -71,3 +71,4 @@ public class PolyArgumentTest {
 	}
 
 }
+*/
