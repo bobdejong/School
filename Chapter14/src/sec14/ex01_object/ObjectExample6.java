@@ -19,6 +19,10 @@ class Circle{
 		
 	}
 	
+	public int hashCode() {
+		return radius;
+	}
+	
 }
 
 
