@@ -16,15 +16,16 @@ public class IteratorUsage {
 		System.out.println("반복자를 이용한 1차 출력과\"Third\" 삭제");
 		while(itr.hasNext()) {
 			String curStr=itr.next();
-			/*System.out.println(curStr);
 			
-			if(curStr.compareTo("Third")==0)
-			itr.remove();*/
 			
-			if(!curStr.equals("Third")) {
+			if(curStr.compareTo("Third")==0) 
+			itr.remove();
+			
+			System.out.println(curStr);
+			/*if(!curStr.equals("Third")) {
 				itr.remove();
 				System.out.println(curStr);
-			}
+			}*/
 			
 			
 			

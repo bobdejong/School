@@ -1,6 +1,7 @@
 package sec17.ex01_datastructure;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 class Name{
 	String firstName;
@@ -10,7 +11,22 @@ class Name{
 		this.lastName=lastName;
 		
 	}
+	public boolean equals(Object obj) {
+		if(obj instanceof Name) {
+			Name name=(Name)obj;
+			return (this.firstName==name.firstName && this.lastName==name.lastName);
+			
+			
+		}else 
+			return false;
+		
+		}
 	
+	
+	public int hashCode() {
+		return Objects.hash(firstName,lastName);
+		
+	}
 	
 	
 }

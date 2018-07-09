@@ -16,6 +16,8 @@ public class ArrayListExample {
 			
 			System.out.println(str);
 		}
+		System.out.println(list);
+		
 
 	}
 

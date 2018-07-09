@@ -27,6 +27,8 @@ public class HashcodeExample2 {
 		System.out.println(hash1);
 		System.out.println(hash2);
 		
+		
+		
 	}
 
 }
