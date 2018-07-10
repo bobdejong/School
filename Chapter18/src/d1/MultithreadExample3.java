@@ -14,6 +14,8 @@ class SmallLeters implements Runnable{  //다중상속이 안되서 인터페이스 사용, 다�
 public class MultithreadExample3 {
 
 	public static void main(String[] args) {
+		//Runnable s=new SmallLeters();
+		
 		Thread thread=new Thread(new SmallLeters());
 
 		thread.start();
