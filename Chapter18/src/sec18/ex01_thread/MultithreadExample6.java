@@ -40,8 +40,14 @@ class SharedArea4{
 public class MultithreadExample6 {
 
 	public static void main(String[] args) {
-		
-
+		SharedArea4 area=new SharedArea4();
+		/*area.account1=new Account("111-111-1111","ÀÌ¸ù·æ",20000000);
+		area.account2=new Account("222-222-2222","¼ºÃáÇâ",10000000);
+		TransferThread thread1=new TransferThread(area);
+		PrintThread2 thread2=new PrintThread2(area);
+		thread1.start();
+		thread2.start();
+		 */
 	}
 
 }
