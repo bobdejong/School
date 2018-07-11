@@ -25,6 +25,7 @@ class Account{
 class SharedArea3{
 	Account account1;
 	Account account2;
+	
 }
 
 class TransferThread extends Thread{
