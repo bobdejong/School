@@ -24,6 +24,10 @@ class MP3Player implements Player{
 	public void stop() { 
 		System.out.println("플레이 종료");
 	}	
+	
+	public void stoop() { 
+		System.out.println("플레이 계속");
+	}	
 }
 }
 
@@ -36,7 +40,8 @@ public class NestedIFExample1 {
 		factory.new MP3Player().play("qqw");
         player.play("렛잇비");
         player.stop();
-
+        //player.stoop();
+        factory.new MP3Player().stoop();
 	}
 
 }
