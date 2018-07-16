@@ -61,6 +61,7 @@ public class NestedClassExample2 {
 		cart.addItem("ƒ…¿Ã≈©", 1, 25000);
 		cart.addItem("º§∆‰¿Œ", 1, 7000);
 		Cart.Item cart2=cart.new Item("≤…¥Ÿπﬂ",1,50000);
+		//Cart.Item cart3=new Cart.Item("≤…¥Ÿπﬂ",1,50000);
 		cart.list.add(cart2);
 		printCart(cart);
 

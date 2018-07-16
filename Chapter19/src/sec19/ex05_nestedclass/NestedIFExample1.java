@@ -37,6 +37,7 @@ public class NestedIFExample1 {
 		MP3PlayerFactory factory = new MP3PlayerFactory();
 		PlayerFactory.Player player= factory.createPlayer();
 		
+		
 		factory.new MP3Player().play("qqw");
         player.play("∑ø¿’∫Ò");
         player.stop();
